@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sachin - Developer Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(7, 7, 47);
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      nav ul li a:hover {
+        color: rgb(79, 94, 228);
+      }
+
+      .left {
+        font-size: 2vw;
+      }
+
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        margin: 70px 0px;
+        align-items: center;
+      }
+
+      .firstsection div {
+        width: 30%;
+      }
+
+      .leftsection {
+        font-size: 2.3rem;
+        /* margin: 50px 0px; */
+      }
+      .leftsection .btn {
+        background-color: purple;
+        border: 0;
+        padding: 5px;
+        border-radius: 2px;
+        font-size: large;
+        margin: 20px;
+      }
+      .btn a {
+        color: white;
+        text-decoration: none;
+      }
+      .btn a:hover {
+        color: rgb(118, 128, 224);
+      }
+      .rightsection img {
+        width: 100%;
+        /* padding: px; */
+        /* margin: 50px 0px; */
+      }
+
+      main hr {
+        margin: 20px;
+        border: 0;
+        background: rgb(15, 23, 98);
+        height: 1.2px;
+      }
+
+      .purple {
+        color: rgb(241, 97, 241);
+      }
+
+      #element {
+        color: rgb(241, 97, 241);
+      }
+
+
+.about-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+padding: 1vw 13vw;
+gap: 3vw;
+}
+
+.about{
+  display: flex;
+  gap: 5vw;
+}
+.about-section h2{
+  font-size: 2vw;
+}
+.left img{
+  width: 30vw;
+  height: 25vw;
+  border-radius: 1vw;
+}
+.right{
+  font-size: 1.5vw;
+  
+}
+      .secondSection {
+        width: 80vw;
+        margin-left:100px;
+        height: 300px;
+        padding-left: 50px;
+        /* display: flex; */
+      }
+      .secondSection h1 {
+        font-size: 35px;   
+      }
+    
+      .secondSection .box {
+        background: white;
+        width: 90%;
+        height: 2px;
+        margin-top:  60px;
+        margin-left: 40px;
+        display: flex;
+
+      }
+      .secondSection .vertical {
+        height: 93px;
+        position: relative;
+        width: 1px;
+        background-color: white;
+        margin: 0 60px;
+      }
+      .secondSection .img-top {
+        width: 40px;
+        position: relative;
+        top: -50px;
+        left: -18px;
+    
+      }
+      .secondSection .title{
+        position: relative;
+        top: 50px;
+        font-size: 1.3vw;
+        /* left: -18px; */
+        width: 8%;
+        
+      }
+      .secondSection .description{
+        top: 15px;
+        position: relative;
+        font-size: small ;
+        width:8%;
+        /* left: -18px;justify-content: center; */
+      }
+
+
+      .secondSection .vertical-two {
+        height: 80px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 90px; */
+      }
+   
+
+
+      .secondSection .vertical-three {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 5px; */
+      }
+   
+
+      .secondSection .vertical-four {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 85px; */
+      }
+   
+
+      .secondSection .vertical-five {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 10px; */
+      }
+     
+
+      .secondSection .vertical-six {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 70px; */
+      }
+     
+
+      .secondSection .vertical-seven {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 40px; */
+      }
+
+
+      .secondSection .vertical-eight {
+        height: 60px;
+        width: 1px;
+        background-color: white;
+        /* margin: 0 60px; */
+      }
+    
+      
+      footer {
+        background-color: rgb(21, 15, 64);
+        
+
+      }
+      .footer {
+        display: flex;
+        padding: 23px 20px;
+        font-size: 1.4vw;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer-first {
+        width: 160px;
+        padding: 20px;
+      }
+      .footer-second {
+        width: 170px;
+      }
+      .footer-second ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      .footer-second ul li a:hover {
+        color: rgb(118, 128, 224);
+      }
+      .footer-third ul li a {
+        /* width: 200px; */
+        text-decoration: none;
+        color: white;
+      }
+
+      .footer-rights {
+        padding-left: 80px;
+        text-align: center;
+        color: gray;
+        padding: 12px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Sachin's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="/Project/Personal Portfolio/about.html"> About</a></li>
+            <li>
+              <a href="/Project/Personal Portfolio/sevices.html"> Services</a>
+            </li>
+            <li>
+              <a href="/Project/Personal Portfolio/projects.html"> Projects</a>
+            </li>
+            <li>
+              <a href="/Project/Personal Portfolio/contact.html"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple">Sachin</span>. <br />
+          and I am a passionate
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">
+              <a
+                href="https://drive.google.com/file/d/1pikYrKdiZL1cfc29OSKSonCCFEHl1sbw/view?usp=drive_link"
+                >Download Resume</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="about-section">
+        <h2>About Me</h2><div class="about">
+        <div class="left">
+          <img src="./mypic.jpeg" alt="">
+        </div>
+        <div class="right">I am Sachin Prajapati, a Computer Science undergraduate from Jaipur, specializing in web development with a 9.05 CGPA. I have hands-on experience through internships at CodSoft and Internshala, and have developed multiple web projects using HTML, CSS, JavaScript, and React JS. My skills include responsive web design and GitHub. I am passionate about exploring new technologies and seek an entry-level position to contribute and learn from experienced developers.</div></div>
+      </section>
+      <section class="secondSection">
+        <h1>Skills</h1>
+        <!-- <div class="line">
+            <hr class="horizontal"> 
+            <hr class="vertical-one"></div> -->
+        <div class="box">
+          <div class="vertical">
+            <img class="img-top" src="html.png" alt="" />
+            <div class="title">HTML</div>
+            <div class="description">
+                <!-- HTML (Hypertext Markup Language) is a text-based approach to describing how content contained within an HTML file is structured. -->
+
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="css.png" alt="">
+            <div class="title">CSS</div>
+            <div class="description">
+                <!-- CSS is a computer language for laying out and structuring web pages (HTML or XML). -->
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="js.png" alt="">
+            <div class="title">JS</div>
+            <div class="description">
+                <!-- JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. -->
+            </div>
+
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="bs.png" alt="">
+            <div class="title">BootStrap</div>
+            <div class="description">
+                <!-- Bootstrap is a free, open source front-end development framework for the creation of websites and web apps. -->
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="mdb.png" alt="">
+            <div class="title">MongoDB</div>
+            <div class="description">
+                <!-- MongoDB is a document database used to build highly available and scalable internet applications -->
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="express.png" alt="">
+            <div class="title">EXPRESS JS</div>
+            <div class="description">
+                <!-- Express JS is used to build a single page, multipage, and hybrid web application. -->
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="react.png" alt="">
+            <div class="title">REACT JS</div>
+            <div class="description">
+<!--                 
+The React. js framework is an open-source JavaScript framework and library developed by Facebook. -->
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img-top" src="node.png" alt="">
+            <div class="title">NODE JS</div>
+            <div class="description">
+                <!-- Node. js is used to create server-side web applications, and it is perfect for data-intensive applications -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <b> Sachin's Developer Portfolio</b>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li><b>Follow Me</b></li>
+              <li>
+                <i class="fa-brands fa-linkedin"></i
+                ><a
+                  href="https://www.linkedin.com/in/sachin-prajapati-621776236/"
+                  >&nbsp; LinkedIn</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-twitter"></i
+                ><a href="https://twitter.com/Sahi7427">&nbsp;Twitter</a>
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i
+                ><a href="https://www.instagram.com/sahi742702/"
+                  >&nbsp; Instagram</a
+                >
+              </li>
+              <li>
+                <i class="fa-brands fa-facebook"></i
+                ><a
+                  href="https://www.facebook.com/profile.php?id=100030735589880"
+                  >&nbsp;Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-third">
+            <ul>
+              <li><b> Contact Info</b></li>
+              <li>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <a
+                  href="https://www.google.com/maps/place/27%C2%B001'42.8%22N+75%C2%B046'02.6%22E/@27.0242732,75.7589659,15z/data=!4m13!1m8!3m7!1s0x396dad99bb613b7b:0xe2df7dc05b2cc48f!2sNindar,+Rajasthan+302013!3b1!8m2!3d27.0236766!4d75.761589!16s%2Fm%2F0278182!3m3!8m2!3d27.028561!4d75.7674?entry=ttu"
+                >
+                  &nbsp; 9, Ramnath Nagar, Todi, Harmara, Sikar Road, Jaipur -
+                  302013</a
+                >
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i> &nbsp;+91 &nbsp; 7427021509
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i> &nbsp;
+                sachinprajapatijaipur@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-rights">
+          copyright &#169; www.sachinsportfolio.com | All Rights Reserved
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [" Web Developer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
